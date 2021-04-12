@@ -1,0 +1,52 @@
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+h1 {
+    margin-bottom: -10px;
+    font-size: 2rem;
+}
+
+h3 {
+    font-weight: normal;
+    margin-bottom: -20px;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+button {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    transition: all 200ms ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(82, 78, 78);
+}
+
+button:focus {
+    background-color: none;
+}
+
+button:active {
+    background-color: black;
+}
